@@ -162,7 +162,7 @@ void up_s()
 	long int x;
 	scanf("%ld", &x);
 	for (int j = 0; j < i; j++) {
-		if (st[j].roll == x) {
+		if (st[i].roll == x) {
 			printf("1. first name\n"
 				"2. last name\n"
 				"3. roll no.\n"
